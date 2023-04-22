@@ -1,0 +1,51 @@
+.auth{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.signBlock{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1em;
+    border: #5265c4 2px solid;
+    width: 40vw;
+    align-items: center;
+    padding: 2em;
+    position: absolute;
+    top: 25%;
+    bottom: 30%;
+
+}
+.email{
+    height: 4vh;
+    border-radius: 6px;
+    width: 200px;
+    border: #5265c4 2px solid;
+}
+.password{
+    height: 4vh;
+    border-radius: 6px;
+    width: 200px;
+    border: #5265c4 2px solid;
+}
+.signIn{
+    height: 5vh;
+    border-radius: 6px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #5265c4;
+    border: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.signIn:hover{
+    background-color: white;
+    color: #5265c4;
+    border: #5265c4 2px solid;
+    font-size: 18px;
+}

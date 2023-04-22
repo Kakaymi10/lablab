@@ -1,0 +1,20 @@
+.event{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    border: #5265c4 3px solid;
+    align-items: center;
+    padding: 2em;
+    border-radius: 5px;
+}
+.evnt_img{
+    width: 25vw;
+    object-fit: cover;
+    height: 30vh;
+    border-radius: 4px;
+}
+.event_date{
+    color: #5265c4;
+    font-weight: 800;
+    font-size: 20px;
+}
